@@ -260,6 +260,11 @@ function App() {
 
         </motion.div>
       </motion.div>
+
+      {/* Footer */}
+      <div className="absolute bottom-4 left-0 w-full text-center text-slate-400/80 text-sm font-medium z-10">
+        Developed by Ayan With ❤️
+      </div>
     </div>
   );
 }
