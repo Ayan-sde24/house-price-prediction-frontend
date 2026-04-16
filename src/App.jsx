@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Building2, MapPin, Square, Bath, IndianRupee, Loader2, Sparkles } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://house-price-prediction-oajs.onrender.com';
 
 function App() {
   const [locations, setLocations] = useState([]);
